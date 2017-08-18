@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 #header{
-	height: 100px;
+	height: 80px;
+	background: #ffb3ff;
 }
 
 .content-container{
@@ -9,66 +10,72 @@
 	height: inherit;
 	min-height: inherit;
 	margin: auto;
+	background: #dedede;
 	
 }
 
+/* --네비바 색깔, 네비폼 위치 가운데 정렬-------------------------------------------------- */
+.container-fluid{
+	padding: 10px 0;
+}
+
 .navbar-form{
-	/* margin-left: 200px; */
-	padding-left: 250px;
+	text-align: center;
 }
 
 .navbar-default {
-  background-color: #22d2b2;
-  border-color: #1bb498;
+  	background-color: #22d2b2;
+  	border-color: #1bb498;
+  	height: inherit;
 }
 .navbar-default .navbar-brand {
-  color: #ecf0f1;
+  	color: #ecf0f1;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #cee1de;
+  	color: #cee1de;
 }
 .navbar-default .navbar-text {
-  color: #ecf0f1;
+  	color: #ecf0f1;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #ecf0f1;
+  	color: #ecf0f1;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #cee1de;
+  	color: #cee1de;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #cee1de;
-  background-color: #1bb498;
+  	color: #cee1de;
+  	background-color: #1bb498;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #cee1de;
-  background-color: #1bb498;
+  	color: #cee1de;
+  	background-color: #1bb498;
 }
 .navbar-default .navbar-toggle {
-  border-color: #1bb498;
+  	border-color: #1bb498;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #1bb498;
+  	background-color: #1bb498;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #ecf0f1;
+  	background-color: #ecf0f1;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #ecf0f1;
+  	border-color: #ecf0f1;
 }
 .navbar-default .navbar-link {
-  color: #ecf0f1;
+  	color: #ecf0f1;
 }
 .navbar-default .navbar-link:hover {
-  color: #cee1de;
+  	color: #cee1de;
 }
 
 @media (max-width: 767px) {
@@ -87,6 +94,13 @@
   }
 }
 
+#logo-small{
+	width: 30px;
+	height: 30px;
+    object-fit: cover;
+    object-position: top;
+}
+
 #my-picture-small {
 	/* width: 50px;
 	height: 50px;
@@ -96,4 +110,15 @@
     object-fit: cover;
     object-position: top;
     border-radius: 50%;
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+#body{
+	height: 500px;
+	background: #b0ffb0;
+}
+
+#footer{
+	height: 200px;
+	background: #ffc1c1;
 }
